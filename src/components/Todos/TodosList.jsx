@@ -77,7 +77,7 @@ const TodosList = () => {
     });
   }
   if (isError) {
-    content = <h1>{error}</h1>;
+    content = <h1>{error.message}</h1>; // Display the error message
   }
 
   return (
